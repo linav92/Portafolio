@@ -51,6 +51,8 @@ header{
   background-size: cover;
   padding-bottom: 10rem; 
   vertical-align: text-bottom;
+  padding-top: 400px;
+  padding-bottom:200px ;
 }
 
 .carousel-indicators {
