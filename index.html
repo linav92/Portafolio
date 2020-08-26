@@ -17,6 +17,7 @@
 
 </head>
 <body>
+    <!-- MI MENÚ -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-purple fixed-top">
         <div class="container">
             <a class="navbar-brand texto-logo" href="#">LSV</a>
@@ -42,6 +43,7 @@
         </div> 
       </nav>
 
+      <!--Mi foto con texto-->
       <header class="hero text-white text-center my-5 py-5">
         <div class="container my-5 py-5">
             <h2 class="mt-5">YO SOY</h2>
@@ -49,6 +51,7 @@
         </div>
     </header>
 
+    <!--About me-->
     <section id="about" class="container pt-5 d-none d-md-block">
         <p class="h4 font-weight-bold pb-3 text-center border-bottom border-dark">Soy ingeniera de sistemas, fotografa amateur y doglover, 
             he trabajado realizando de sitios web, sitios E-learning y creación de contenidos animados.</p>
@@ -74,7 +77,157 @@
         </div>
     </section>
 
-    
+    <!--Experiencia en carrusel-->
+    <section id="experience" class="container py-5 text-center">
+      <h3 class="font-weight-bold text-center my-4 py-4 border-bottom border-dark">MI EXPERIENCIA</h3>
+      <div id="carrusel" class="carousel slide text-dark" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carrusel" data-slide-to="0" class="active bg-dark"></li>
+          <li data-target="#carrusel" data-slide-to="1" class="bg-dark"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row logos-experiencia">
+              <div class="col-md-6 col-lg-6">
+                <i class="fas fa-server fa-10x"></i>
+                <h4 class="mt-3 texto-experiencia font-weight-bold">Administradora de Servidores</h4>
+                <p class="fecha-experiencia">2017-2020</p>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <i class="fas fa-database fa-10x"></i>
+                <h4 class="mt-3 texto-experiencia font-weight-bold">Administradora de Bases de Datos</h4>
+                <p class="fecha-experiencia">2017-2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-dark">
+            <div class="row logos-experiencia">
+              <div class="col-md-6 col-lg-6">
+                <i class="fab fa-php fa-10x"></i>
+                <h4 class="mt-3 texto-experiencia font-weight-bold">Programadora PHP</h4>
+                <p class="fecha-experiencia">2018-2020</p>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <i class="fab fa-wordpress fa-10x"></i>
+                <h4 class="mt-3 texto-experiencia font-weight-bold">Desarrolladora en WordPress</h4>
+                <p class="fecha-experiencia">2018-2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Mis trabajos-->
+    <section id="work" class="container my-5 py-5 bg-purple">
+      <h3 class="text-center font-weight-bold text-white my-4 ">MIS ÚLTIMOS TRABAJOS</h3>
+      <div class="row">
+      <div class="col-md-4 my-5">
+        <div class="card">
+          <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="meet_coffee">
+          <div class="card-body">
+            <h5 class="card-title">Asado en la Patagonia</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#asado">Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 my-5">
+        <div class="card" >
+          <img src="./assets/img/desayunos.jpg" class="card-img-top" alt="desayunos">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Desayunos</h5>
+            <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Morbi leo risus/li>
+            <li class="list-group-item">Porta ac consectetur</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 my-5">
+        <div class="card" >
+          <img src="./assets/img/bebidas.jpg" class="card-img-top" alt="bebidas">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Bebidas</h5>
+            <p class="card-text">Doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 my-5">
+        <div class="card" >
+          <img src="./assets/img/verduras.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Verduras</h5>
+            <p class="card-text">Ipsa quae ab illo inventore veritatis et quasi architecto</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 my-5">
+        <div class="card" >
+          <img src="./assets/img/dulces.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Dulces</h5>
+            <p class="card-text">Some quick example text to build on the card title and</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur</li> 
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 my-5">
+        <div class="card" >
+          <img src="./assets/img/empanadas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Empanadas</h5>
+            <p class="card-text">Some quick example text to build on the card title and</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
     <!-- JQuery sin slim 3.5.1-->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
    <!--Popper 1.16.1-->
