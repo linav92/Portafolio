@@ -77,4 +77,18 @@ header{
   font-size: 1,5625em;
 }
 
+.social-media{
+  display: inline-block;
+}
+
+.texto-footer{
+  font-size: 2.5em;
+}
+footer i{
+  color: #ffffff;
+}
+
+footer{
+  height: 11.5em;
+}
 
